@@ -1,4 +1,4 @@
-# Speedrun.Umbrella
+# Speedrun
 
 Para executar este projeto, precisamos ter uma ambiente Postgres configurado com Docker. O projeto usa a porta padrão 5432.
 
