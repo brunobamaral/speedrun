@@ -4,9 +4,9 @@ defmodule Speedrun.Posts.Schemas.Post do
     1. post (id)  - N post_revision (FK post_id)
     1. author (id) -  N posts (FK author_id)
   """
-  use Ecto.Schema 
+  use Ecto.Schema
 
-  alias Speedrun.Authors.Schemas.Author   
+  alias Speedrun.Authors.Schemas.Author
 
   @primary_key {:id, :binary_id, autogenerate: true}
   @foreign_key_type :binary_id
@@ -15,5 +15,4 @@ defmodule Speedrun.Posts.Schemas.Post do
 
     timestamps()
   end
-
 end

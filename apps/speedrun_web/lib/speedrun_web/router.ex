@@ -7,10 +7,11 @@ defmodule SpeedrunWeb.Router do
 
   scope "/api", SpeedrunWeb do
     pipe_through :api
-'''
-    get "/posts", PostsController, :list
-    post "/posts", PostsController, :create
-    get "/posts/:id", PostsController, :show
-'''
+
+    '''
+        get "/posts", PostsController, :list
+        post "/posts", PostsController, :create
+        get "/posts/:id", PostsController, :show
+    '''
   end
 end
