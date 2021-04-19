@@ -23,7 +23,7 @@ defmodule Speedrun.MixProject do
   def application do
     [
       mod: {Speedrun.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_status]
     ]
   end
 
